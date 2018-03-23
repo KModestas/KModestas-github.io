@@ -9,6 +9,6 @@ function setBindings() {
 
     $('html,body').animate({
       scrollTop: $('#' + sectionId).offset().top
-    }, 1000);
+    }, 1500);
   });
 }
