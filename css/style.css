@@ -1,3 +1,23 @@
-body {
+* {
+  margin : 0;
+}
+
+html, body {
+  height: 100%
+}
+
+nav {
+  background: black;
+  background: rgba(0,0,0, .5);
+  height: 50px;
+}
+
+.section {
   background: purple;
+  height: 100%;
+}
+
+.sub-section {
+  background: black;
+  height: 50%;
 }
