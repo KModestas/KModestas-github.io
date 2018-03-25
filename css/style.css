@@ -17,9 +17,12 @@ nav {
   height: 50px;
   z-index: 10;
   background: black;
-  background: rgba(0,0,0,.7);
   text-align: center;
   z-index: 20;
+}
+
+#opaque {
+    background: rgba(0,0,0,.7) !important;
 }
 
 a {
