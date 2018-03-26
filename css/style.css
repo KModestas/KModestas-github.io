@@ -22,7 +22,7 @@ nav {
 }
 
 #opaque {
-    background: rgba(0,0,0,.7) !important;
+    background: rgba(0,0,0,.7);
 }
 
 a {
@@ -75,4 +75,19 @@ a {
   background-image: url("../images/contact.jpg");
   background-size: cover;
   background-position: bottom;
+}
+
+
+/**** Project Section ****/
+
+.projectDiv {
+  /*padding: 100px;*/
+  text-align: center;
+}
+
+.projectDiv .projects {
+  display: inline-block;
+  background: #fff;
+  height: 300px;
+  margin: 10px;
 }
