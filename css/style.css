@@ -99,14 +99,23 @@ a {
    bottom: 0;
    transition: all 1s ease;
    width: 100%;
+   overflow-y: scroll;
+
 }
 
 .projectDiv .projects .hoverBox {
-  background: rgba(0,0,0,.5);
+  background: rgba(0,0,0,.8);
+  color: white;
   height: 100%;
   position: relative;
   bottom: -100%;
   /*width: 0;*/
   margin: 0;
   padding: 0;
+}
+
+.projectDiv #project1 {
+  background-image: url("../images/project1.png");
+  background-size: cover;
+  background-position: top;
 }
