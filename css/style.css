@@ -35,7 +35,6 @@ a {
 .section {
   background-attachment: fixed;
   height: 100%;
-  /*add overlay in future*/
   position: relative;
 }
 
@@ -82,7 +81,7 @@ a {
 /**** Project Section ****/
 
 .projectDiv {
-  /*padding: 100px;*/
+  padding: 50px;
   text-align: center;
 }
 
@@ -90,5 +89,23 @@ a {
   display: inline-block;
   background: #fff;
   height: 300px;
-  margin: 10px;
+  margin: 20px;
+  overflow: hidden;
+  padding: 0;
+}
+
+.projectDiv .projects:hover .hoverBox {
+   bottom: 0;
+   transition: all .7s ease;
+   width: 140%;
+}
+
+.projectDiv .projects .hoverBox {
+  background: rgba(0,0,0,.5);
+  height: 100%;
+  position: relative;
+  bottom: -100%;
+  /*width: 0;*/
+  margin: 0;
+  padding: 0;
 }
