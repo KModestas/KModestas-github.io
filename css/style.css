@@ -155,3 +155,27 @@ p {
   background-size: cover;
   background-position: top;
 }
+
+/*contact section*/
+
+.contact-content {
+  margin-top: 150px;
+  text-align: center;
+  color: #cecece;
+}
+
+.contact-content p {
+  font-size: 50px;
+}
+
+.contact-content, .fab {
+  font-size: 40px;
+  /*margin-top: 30px;
+  font-size: 50px;*/
+}
+
+/*about section*/
+
+.skills {
+  height: 500px;
+}
