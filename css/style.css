@@ -21,6 +21,17 @@ nav {
   z-index: 20;
 }
 
+.me {
+  height: 440px;
+  width: 320px;
+  border-radius: 20px;
+  opacity: 0.9;
+}
+
+.home-content {
+  margin-top: 100px;
+}
+
 #opaque {
     background: rgba(0,0,0,.7);
 }
@@ -30,6 +41,10 @@ a {
   color: white;
   margin: 30px;
   font-family: sans-serif;
+}
+
+p {
+  color: white;
 }
 
 .section {
@@ -88,11 +103,12 @@ a {
 .projectDiv .projects {
   display: inline-block;
   background: #fff;
-  height: 350px;
+  height: 320px;
   margin: 20px;
   overflow: hidden;
   padding: 0;
-  border: 2px solid black;
+  border: 3px solid black;
+  border-radius: 10px;
 }
 
 .projectDiv .projects:hover .hoverBox {
@@ -104,7 +120,7 @@ a {
 }
 
 .projectDiv .projects .hoverBox {
-  background: rgba(0,0,0,.8);
+  background: rgba(0,0,0, .85);
   color: white;
   height: 100%;
   position: relative;
@@ -116,6 +132,26 @@ a {
 
 .projectDiv #project1 {
   background-image: url("../images/project1.png");
+  background-size: cover;
+  background-position: top;
+}
+
+.projectDiv #project2 {
+  background-image: url("../images/project2.png");
+  background-size: cover;
+  background-position: top;
+}
+
+.projectDiv #project3 {
+  background-image: url("../images/project3.png");
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+.projectDiv #project4 {
+  background-image: url("../images/project4.png");
   background-size: cover;
   background-position: top;
 }
