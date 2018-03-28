@@ -177,5 +177,15 @@ p {
 /*about section*/
 
 .skills {
-  height: 500px;
+  height: 600px;
+  width: 500px;
+  text-align: center;
+}
+
+.fav-format {
+  display: inline-block;
+  margin: 30px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
 }
