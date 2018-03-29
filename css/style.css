@@ -119,6 +119,10 @@ p {
 
 }
 
+.projectDiv .projects:hover .hoverBox a {
+  font-size: 30px;
+}
+
 .projectDiv .projects .hoverBox {
   background: rgba(0,0,0, .85);
   color: white;
@@ -127,7 +131,7 @@ p {
   bottom: -100%;
   /*width: 0;*/
   margin: 0;
-  padding: 0;
+  padding: 2px;
 }
 
 .projectDiv #project1 {
