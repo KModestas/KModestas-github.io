@@ -211,6 +211,7 @@ p {
 .home-content {
   /*padding: 50px;*/
   margin-top: 110px;
+  text-align: justify;
 }
 
 .me {
@@ -232,7 +233,8 @@ p {
 /* about section */
 
 .about-content {
-  margin-top: 120px;
+  margin-top: 100px;
+  text-align: justify;
 }
 
 .about-content .book {
