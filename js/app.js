@@ -1,5 +1,10 @@
 $(document).ready(function(){
   setBindings();
+
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip("show");
+    $(".tooltip.fade.top").remove();
+ });
 });
 
 function setBindings() {
