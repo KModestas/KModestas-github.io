@@ -102,7 +102,7 @@ p {
 
 .projectDiv .projects {
   display: inline-block;
-  background: #fff;
+  background: rgba(255,255,255, .8);
   height: 320px;
   margin: 20px;
   overflow: hidden;
@@ -178,14 +178,15 @@ p {
 
 .skills {
   height: 600px;
-  width: 500px;
+  width: 800px;
   text-align: center;
 }
 
 .fav-format {
   display: inline-block;
-  margin: 30px;
+  margin: 24px;
   text-align: center;
   color: white;
-  font-size: 20px;
+  font-size: 24px;
+  padding: 5px;
 }
