@@ -21,16 +21,6 @@ nav {
   z-index: 20;
 }
 
-.me {
-  height: 440px;
-  width: 320px;
-  border-radius: 20px;
-  opacity: 0.9;
-}
-
-.home-content {
-  margin-top: 100px;
-}
 
 #opaque {
     background: rgba(0,0,0,.7);
@@ -193,4 +183,25 @@ p {
   color: white;
   font-size: 24px;
   padding: 5px;
+}
+
+/* home section */
+
+.home-content {
+  /*padding: 50px;*/
+  margin-top: 110px;
+}
+
+.me {
+  height: 440px;
+  width: 320px;
+  border-radius: 20px;
+  opacity: 0.85;
+}
+
+.home-content .my-name  {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 70px;
+
 }
