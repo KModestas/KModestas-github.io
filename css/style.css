@@ -44,7 +44,7 @@ p {
 }
 
 .overlay {
-    background: rgba(0,0,0,.5);
+    background: rgba(0,0,0,.4);
     height: 100%;
     z-index: 10;
     overflow-y: scroll;
@@ -82,6 +82,12 @@ p {
   background-position: bottom;
 }
 
+.section-5 {
+  background-image: url("../images/skills.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 
 /**** Project Section ****/
 
@@ -94,7 +100,7 @@ p {
   display: inline-block;
   background: rgba(255,255,255, .8);
   height: 320px;
-  margin: 20px;
+  margin: 40px 20px 20px 20px;
   overflow: hidden;
   padding: 0;
   border: 3px solid black;
@@ -168,13 +174,29 @@ p {
   font-size: 50px;*/
 }
 
-/*about section*/
+/* skills section*/
 
-.skills {
+.skills-content {
+  margin-top: 110px;
   height: 600px;
-  width: 800px;
+  /*width: 00px;*/
   text-align: center;
 }
+
+.skills-content h2 {
+  margin-bottom: 20px;
+  margin-left: 16px;
+  color: white;
+  /*display: inline-block;*/
+  border-bottom: 2px solid white;
+  display: inline-block;
+}
+
+.skills-content ul {
+  padding: 0;
+  margin 0;
+}
+
 
 .fav-format {
   display: inline-block;
@@ -195,12 +217,20 @@ p {
   height: 440px;
   width: 320px;
   border-radius: 20px;
-  opacity: 0.85;
+  opacity: 1;
+  border: 5px solid black;
+
 }
 
 .home-content .my-name  {
   text-align: center;
   margin-bottom: 40px;
   font-size: 70px;
+}
 
+
+/* about section */
+
+.about-content {
+  margin-top: 120px;
 }
