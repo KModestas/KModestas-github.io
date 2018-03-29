@@ -215,7 +215,7 @@ p {
 
 .me {
   height: 440px;
-  width: 320px;
+  width: 300px;
   border-radius: 20px;
   opacity: 1;
   border: 5px solid black;
@@ -233,4 +233,18 @@ p {
 
 .about-content {
   margin-top: 120px;
+}
+
+.about-content .book {
+  width: 150px;
+  height: 230px;
+  margin-top: 40px;
+  border: 2px solid white;
+}
+
+.about-content .jre {
+  width: 290px;
+  height: 230px;
+  margin-top: 40px;
+  border: 2px solid white;
 }
