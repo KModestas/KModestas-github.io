@@ -254,4 +254,5 @@ p {
   height: 230px;
   margin-top: 40px;
   border: 2px solid white;
+  border-radius: 15px;
 }
