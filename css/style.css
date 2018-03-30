@@ -176,17 +176,16 @@ p {
 /* skills section*/
 
 .skills-content {
-  margin-top: 110px;
+  margin-top: 100px;
   height: 600px;
   text-align: center;
-  text-shadow: 3px 3px #000000;
+  text-shadow: 2px 2px #000000;
 }
 
 .skills-content h2 {
   margin-bottom: 20px;
-  margin-left: 16px;
   color: white;
-  /*display: inline-block;*/
+  text-shadow: 3px 3px #000000;
   border-bottom: 2px solid white;
   display: inline-block;
 }
