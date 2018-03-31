@@ -156,6 +156,12 @@ p {
   background-position: top;
 }
 
+.projectDiv #project5 {
+  background-image: url("../images/project5.png");
+  background-size: cover;
+  background-position: left;
+}
+
 /*contact section*/
 
 .contact-content {
