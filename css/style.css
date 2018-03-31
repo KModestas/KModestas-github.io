@@ -105,7 +105,14 @@ p {
   padding: 0;
   border: 3px solid black;
   border-radius: 10px;
-  box-shadow: 1px 1px 1px 1px #fff;
+  box-shadow: 0 0 10px #fff;
+  transition: box-shadow 1s;
+}
+
+.projectDiv .projects:hover {
+  transition: all 1s ease;
+  box-shadow: 0 0 40px #f9ef59;
+
 }
 
 .projectDiv .projects:hover .hoverBox {
@@ -113,7 +120,6 @@ p {
    transition: all 1s ease;
    width: 100%;
    overflow-y: scroll;
-
 }
 
 .projectDiv .projects:hover .hoverBox a {
