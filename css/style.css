@@ -266,6 +266,7 @@ p {
   height: 230px;
   margin-top: 40px;
   border: 2px solid white;
+  transition: all 1s ease;
 }
 
 .about-content .book:hover {
@@ -279,6 +280,7 @@ p {
   margin-top: 40px;
   border: 2px solid white;
   border-radius: 15px;
+  transition: all 1s ease;
 }
 
 .about-content .jre:hover {
