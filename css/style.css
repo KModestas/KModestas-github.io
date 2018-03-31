@@ -1,5 +1,6 @@
 * {
   margin : 0;
+  font-style: grotesque;
 }
 
 html, body {
@@ -20,7 +21,6 @@ nav {
   text-align: center;
   z-index: 20;
 }
-
 
 #opaque {
     background: rgba(0,0,0,.7);
@@ -207,8 +207,7 @@ p {
 
 /* home section */
 .home-content {
-  /*padding: 50px;*/
-  margin-top: 110px;
+  margin-top: 90px;
   text-align: justify;
 }
 
@@ -256,10 +255,19 @@ p {
   border: 2px solid white;
 }
 
+.about-content .book:hover {
+  margin-top: 5px;
+}
+
+
 .about-content .jre {
   width: 290px;
   height: 230px;
   margin-top: 40px;
   border: 2px solid white;
   border-radius: 15px;
+}
+
+.about-content .jre:hover {
+  margin-top: 5px;
 }
