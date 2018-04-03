@@ -111,7 +111,7 @@ p {
 
 .projectDiv .projects:hover {
   transition: all 1s ease;
-  box-shadow: 0 0 40px #f9ef59;
+  box-shadow: 0 0 40px #ffdb7a;
 
 }
 
@@ -136,6 +136,15 @@ p {
   margin: 0;
   padding: 2px;
 }
+
+.projectDiv .projects .hoverBox h6 {
+  color: #fff6db;
+}
+
+.projectDiv .projects .hoverBox h3 {
+  color: #ffecb7;
+}
+
 
 .projectDiv #project1 {
   background-image: url("../images/project1.png");
