@@ -126,19 +126,20 @@ p {
    overflow-y: scroll;
 }
 
+
 .projectDiv .projects:hover .hoverBox a {
   font-size: 30px;
 }
 
 .projectDiv .projects .hoverBox {
-  background: rgba(0,0,0, .85);
-  color: white;
+  background: rgba(0,0,0,.85);
   height: 100%;
   position: relative;
   bottom: -100%;
   /*width: 0;*/
   margin: 0;
-  padding: 2px;
+  padding: 3px;
+  color: white;
 }
 
 .projectDiv .projects .hoverBox h6 {
@@ -147,6 +148,20 @@ p {
 
 .projectDiv .projects .hoverBox h3 {
   color: #ffecb7;
+}
+
+/*custom scrollbar*/
+
+.projectDiv .projects .hoverBox::-webkit-scrollbar {
+    width: 8px;
+}
+
+.projectDiv .projects .hoverBox::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.projectDiv .projects .hoverBox::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
 }
 
 
