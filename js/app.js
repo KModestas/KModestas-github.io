@@ -3,8 +3,9 @@ $(document).ready(function(){
 
   $(function () {
     $('[data-toggle="tooltip"]').tooltip('show');
-    $('.tooltip.fade.top').remove();
   });
+
+
 });
 
 function setBindings() {
@@ -16,4 +17,6 @@ function setBindings() {
       scrollTop: $('#' + sectionId).offset().top
     }, 1500);
   });
+
+
 }
