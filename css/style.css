@@ -56,7 +56,7 @@ p {
   background-repeat: no-repeat;
   height: 50%;
   /* add css animation that quickly changes opacity when you scroll and back */
-  opacity: .6;
+  opacity: .4;
 }
 
 .section-1 {
