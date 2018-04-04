@@ -6,6 +6,7 @@
 html, body {
   background: black;
   height: 100%;
+  font-family: 'Abel', sans-serif;
 }
 
 h1 {
@@ -20,6 +21,7 @@ nav {
   background: black;
   text-align: center;
   z-index: 20;
+  font-size: 20px;
 }
 
 #opaque {
@@ -30,11 +32,13 @@ a {
   text-decoration: none;
   color: white;
   margin: 30px;
-  font-family: sans-serif;
+  font-family: 'Abel', sans-serif;
+
 }
 
 p {
   color: white;
+  font-size: 18px;
 }
 
 .section {
