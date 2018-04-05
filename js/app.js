@@ -9,7 +9,7 @@ $(document).ready(function(){
   // fades out tooltip after 4 secs
   setTimeout(function() {
     $('.tooltip').fadeOut('slow');
-  }, 3000);
+  }, 4000);
 
 
   // tooltip fades in when you hover over nav item
@@ -22,7 +22,7 @@ $(document).ready(function(){
 function setBindings() {
   $('nav a').click(function(e){
     e.preventDefault();
-    var sectionId = e.currentTarget.id + 'Section';
+    const sectionId = e.currentTarget.id + 'Section';
 
     $('html,body').animate({
       scrollTop: $('#' + sectionId).offset().top
