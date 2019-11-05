@@ -295,6 +295,17 @@ p {
   text-shadow: 2px 2px #000000
 }
 
+.about-content .app {
+  margin-top: 115px;
+  width: 160px;
+  height: 160px;
+  text-align: justify;
+  border-radius: 35px;
+  border: 2px solid white;
+  text-shadow: 2px 2px #000000;
+  transition: all 1s ease;
+}
+
 
 .about-content .book {
   width: 150px;
@@ -304,7 +315,7 @@ p {
   transition: all 1s ease;
 }
 
-.about-content .book:hover {
+.about-content .book:hover, .about-content .jre:hover, .about-content .app:hover {
   margin-top: 5px;
 }
 
@@ -318,6 +329,6 @@ p {
   transition: all 1s ease;
 }
 
-.about-content .jre:hover {
+/* .about-content .jre:hover {
   margin-top: 5px;
-}
+} */
