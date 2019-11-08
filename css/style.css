@@ -165,7 +165,7 @@ p {
 
 
 .projectDiv #project1 {
-  background-image: url("../images/project1.png");
+  background-image: url("../images/chimneys.png");
   background-size: cover;
   background-position: top;
 }
@@ -185,13 +185,13 @@ p {
 
 
 .projectDiv #project4 {
-  background-image: url("../images/project4.png");
+  background-image: url("../images/euphoria.png");
   background-size: cover;
   background-position: top;
 }
 
 .projectDiv #project5 {
-  background-image: url("../images/project5.png");
+  background-image: url("../images/superfoods.png");
   background-size: cover;
   /*background-position: left;*/
 }
