@@ -156,7 +156,7 @@ p {
 }
 
 .projectDiv .projects .hoverBox::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 }
 
 .projectDiv .projects .hoverBox::-webkit-scrollbar-thumb {
@@ -197,7 +197,7 @@ p {
 }
 
 .projectDiv #project6 {
-  background-image: url("../images/project6.png");
+  background-image: url("../images/spltn.png");
   background-size: cover;
   background-position: center;
 }
