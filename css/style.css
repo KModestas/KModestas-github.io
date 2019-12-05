@@ -164,19 +164,19 @@ p {
 }
 
 
-.projectDiv #project1 {
+.projectDiv #chimneys {
   background-image: url("../images/chimneys.png");
   background-size: cover;
   background-position: top;
 }
 
-.projectDiv #project2 {
+.projectDiv #thingdex {
   background-image: url("../images/thingdex.jpg");
   background-size: cover;
   background-position: top;
 }
 
-.projectDiv #project3 {
+.projectDiv #icon {
   background-image: url("../images/icon.png");
   background-size: cover;
   background-position: center;
@@ -184,19 +184,19 @@ p {
 
 
 
-.projectDiv #project4 {
+.projectDiv #euphoria {
   background-image: url("../images/euphoria.png");
   background-size: cover;
   background-position: top;
 }
 
-.projectDiv #project5 {
+.projectDiv #superfoods {
   background-image: url("../images/superfoods.png");
   background-size: cover;
   /*background-position: left;*/
 }
 
-.projectDiv #project6 {
+.projectDiv #spltn {
   background-image: url("../images/spltn.png");
   background-size: cover;
   background-position: center;
