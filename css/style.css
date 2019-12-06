@@ -332,9 +332,9 @@ p {
 
 
 .about-content .youtubeVideo {
-  width: 290px;
-  height: 230px;
-  margin-top: 40px;
+  width: 200px;
+  height: 180px;
+  margin-top: 90px;
   border: 2px solid white;
   border-radius: 15px;
   transition: all 1s ease;
