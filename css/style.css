@@ -326,20 +326,21 @@ p {
   transition: all 1s ease;
 }
 
-.about-content .book:hover, .about-content .jre:hover, .about-content .app:hover {
+.about-content .book:hover, .about-content .youtubeVideo:hover, .about-content .app:hover {
   margin-top: 5px;
 }
 
 
-.about-content .jre {
+.about-content .youtubeVideo {
   width: 290px;
   height: 230px;
   margin-top: 40px;
   border: 2px solid white;
   border-radius: 15px;
   transition: all 1s ease;
+  object-fit: cover;
 }
 
-/* .about-content .jre:hover {
+/* .about-content .youtubeVideo:hover {
   margin-top: 5px;
 } */
